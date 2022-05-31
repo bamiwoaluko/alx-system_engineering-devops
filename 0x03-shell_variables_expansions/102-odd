@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -lne '$.%1 or print;' 
+paste - - | cut -f1
