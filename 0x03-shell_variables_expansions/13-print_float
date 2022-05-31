@@ -1,2 +1,2 @@
 #!/bin/ban
-echo "$NUM *1.00" | bc
+printf "%.2f\n" $NUM
