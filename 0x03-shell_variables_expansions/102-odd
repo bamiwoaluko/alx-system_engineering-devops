@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 'n;d' 
+perl -lne '$.%1 or print;' 
